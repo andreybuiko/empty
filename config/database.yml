@@ -1,0 +1,21 @@
+common: &common
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  username: postgres
+  password: postgres
+  host: localhost
+  port: 5432
+
+development:
+  database: empty_development
+  <<: *common
+
+test:
+  database: empty_test
+  min_messages: WARNING
+  <<: *common
+
+production:
+  database: empty_production
+  <<: *common

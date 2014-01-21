@@ -1,0 +1,3 @@
+== README
+
+Empty project with gems
