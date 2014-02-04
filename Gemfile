@@ -10,6 +10,7 @@ gem 'annotate'
 gem 'slim-rails'
 
 # assets
+gem 'bootstrap-sass'
 gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'sass-rails'
